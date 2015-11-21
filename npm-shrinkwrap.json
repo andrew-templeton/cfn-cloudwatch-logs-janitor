@@ -1,0 +1,25 @@
+{
+  "name": "cfn-cloudwatch-logs-janitor",
+  "version": "0.1.0",
+  "dependencies": {
+    "cfn-lambda": {
+      "version": "0.6.1",
+      "from": "cfn-lambda@0.6.1",
+      "resolved": "https://registry.npmjs.org/cfn-lambda/-/cfn-lambda-0.6.1.tgz",
+      "dependencies": {
+        "jayschema": {
+          "version": "0.3.1",
+          "from": "https://registry.npmjs.org/jayschema/-/jayschema-0.3.1.tgz",
+          "resolved": "https://registry.npmjs.org/jayschema/-/jayschema-0.3.1.tgz",
+          "dependencies": {
+            "when": {
+              "version": "3.4.6",
+              "from": "https://registry.npmjs.org/when/-/when-3.4.6.tgz",
+              "resolved": "https://registry.npmjs.org/when/-/when-3.4.6.tgz"
+            }
+          }
+        }
+      }
+    }
+  }
+}

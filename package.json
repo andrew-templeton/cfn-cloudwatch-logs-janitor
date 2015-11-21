@@ -1,0 +1,34 @@
+{
+  "name": "cfn-cloudwatch-logs-janitor",
+  "version": "0.1.0",
+  "description": "Custom::LogJanitor | AWS CloudFormation Custom Resource | Log Janitor for CloudFormation Templates",
+  "main": "index.js",
+  "scripts": {
+    "cfn-lambda-deploy": "chmod +x ./node_modules/cfn-lambda/deploy.sh && ./node_modules/cfn-lambda/deploy.sh;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-templeton/cfn-cloudwatch-logs-janitor.git"
+  },
+  "keywords": [
+    "aws",
+    "cloudformation",
+    "lambda",
+    "backed",
+    "custom",
+    "resource",
+    "cloudwatch",
+    "logs",
+    "janitor",
+    "cleanup"
+  ],
+  "author": "Andrew Templeton <andrw.tmplton@gmail.com> (https://github.com/andrew-templeton)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-templeton/cfn-cloudwatch-logs-janitor/issues"
+  },
+  "homepage": "https://github.com/andrew-templeton/cfn-cloudwatch-logs-janitor#readme",
+  "dependencies": {
+    "cfn-lambda": "0.6.1"
+  }
+}
